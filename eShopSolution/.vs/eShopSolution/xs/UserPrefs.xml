@@ -1,17 +1,29 @@
 ﻿<Properties StartupConfiguration="{8478410A-C6FA-4F48-80F1-71052BFA751C}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="eShopSolution.Data/Enums/TransactionStatus.cs">
+    <Files>
+      <File FileName="eShopSolution.Data/EF/EShopDbContext.cs" Line="21" Column="56" />
+      <File FileName="eShopSolution.Data/Entities/Category.cs" Line="14" Column="7" />
+      <File FileName="eShopSolution.Data/Enums/TransactionStatus.cs" Line="7" Column="15" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="eShopSolution" expanded="True">
-            <Node name="eShopSolution.Application" expanded="True" />
+            <Node name="eShopSolution.Application" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+            <Node name="eShopSolution.Data" expanded="True">
+              <Node name="EF" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Enums" expanded="True">
+                <Node name="TransactionStatus.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.eShopSolution.Data FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.eShopSolution.Application FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.eShopSolution.WebApp FirstBuild="True" PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
