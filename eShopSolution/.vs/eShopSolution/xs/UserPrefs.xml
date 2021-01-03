@@ -1,9 +1,29 @@
 ﻿<Properties StartupConfiguration="{8478410A-C6FA-4F48-80F1-71052BFA751C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="eShopSolution.Data/Enums/TransactionStatus.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="eShopSolution.Data/appsettings.json">
     <Files>
-      <File FileName="eShopSolution.Data/EF/EShopDbContext.cs" Line="21" Column="56" />
-      <File FileName="eShopSolution.Data/Entities/Category.cs" Line="14" Column="7" />
-      <File FileName="eShopSolution.Data/Enums/TransactionStatus.cs" Line="7" Column="15" />
+      <File FileName="eShopSolution.Data/EF/EShopDbContext.cs" Line="15" Column="1" />
+      <File FileName="eShopSolution.Data/EF/EShopDbContextFactory.cs" Line="22" Column="2" />
+      <File FileName="eShopSolution.Data/Entities/Order.cs" Line="15" Column="52" />
+      <File FileName="eShopSolution.Data/Entities/Cart.cs" Line="14" Column="1" />
+      <File FileName="eShopSolution.Data/Entities/Category.cs" Line="16" Column="6" />
+      <File FileName="eShopSolution.Data/Entities/CategoryTranslation.cs" Line="1" Column="1" />
+      <File FileName="eShopSolution.Data/Entities/Contact.cs" Line="1" Column="1" />
+      <File FileName="eShopSolution.Data/Entities/Language.cs" Line="1" Column="1" />
+      <File FileName="eShopSolution.Data/Entities/OrderDetail.cs" Line="1" Column="1" />
+      <File FileName="eShopSolution.Data/Entities/Product.cs" Line="19" Column="26" />
+      <File FileName="eShopSolution.Data/Entities/ProductInCategory.cs" Line="1" Column="1" />
+      <File FileName="eShopSolution.Data/Configurations/ProductConfiguration.cs" Line="1" Column="1" />
+      <File FileName="eShopSolution.Data/Configurations/ProductInCategoryConfiguration.cs" Line="18" Column="6" />
+      <File FileName="eShopSolution.Data/Enums/OrderStatus.cs" Line="13" Column="1" />
+      <File FileName="eShopSolution.Data/Enums/Status.cs" Line="10" Column="1" />
+      <File FileName="eShopSolution.Data/Enums/TransactionStatus.cs" Line="11" Column="1" />
+      <File FileName="eShopSolution.Data/Entities/Transaction.cs" Line="20" Column="7" />
+      <File FileName="eShopSolution.Data/Configurations/TransactionConfiguration.cs" Line="18" Column="10" />
+      <File FileName="eShopSolution.Data/Configurations/CartConfiguration.cs" Line="23" Column="1" />
+      <File FileName="eShopSolution.Data/Migrations/20210103162541_Initial.cs" Line="234" Column="17" />
+      <File FileName="eShopSolution.Data/Migrations/20210103162541_Initial.Designer.cs" Line="1" Column="1" />
+      <File FileName="eShopSolution.Data/Migrations/EShopDbContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="eShopSolution.Data/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,11 +33,9 @@
               <Node name="Dependencies" expanded="True" />
             </Node>
             <Node name="eShopSolution.Data" expanded="True">
-              <Node name="EF" expanded="True" />
               <Node name="Entities" expanded="True" />
-              <Node name="Enums" expanded="True">
-                <Node name="TransactionStatus.cs" selected="True" />
-              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
