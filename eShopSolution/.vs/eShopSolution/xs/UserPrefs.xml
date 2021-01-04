@@ -1,18 +1,32 @@
 ﻿<Properties StartupConfiguration="{8478410A-C6FA-4F48-80F1-71052BFA751C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="eShopSolution.Data/Migrations/20210104100558_SeedingIndentity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="eShopSolution.Application/Catalog/Products/ManageProductService.cs">
     <Files>
-      <File FileName="eShopSolution.Data/EF/EShopDbContext.cs" Line="48" Column="33" />
-      <File FileName="eShopSolution.Data/Extensions/ModelBuilderExtensions.cs" Line="82" Column="63" />
-      <File FileName="eShopSolution.Data/Migrations/20210104100558_SeedingIndentity.cs" Line="1" Column="1" />
+      <File FileName="eShopSolution.Data/EF/EShopDbContext.cs" Line="20" Column="10" />
+      <File FileName="eShopSolution.Application/Dtos/PagedViewModel.cs" Line="8" Column="43" />
+      <File FileName="eShopSolution.Application/Catalog/Products/IManageProductService.cs" Line="20" Column="1" />
+      <File FileName="eShopSolution.Application/Catalog/Products/Dtos/ProductCreateRequest.cs" Line="2" Column="1" />
+      <File FileName="eShopSolution.Application/Catalog/Products/Dtos/ProductEditRequest.cs" Line="6" Column="34" />
+      <File FileName="eShopSolution.Application/Catalog/Products/Dtos/ProductViewModel.cs" Line="6" Column="14" />
+      <File FileName="eShopSolution.Application/Catalog/Products/IPublicProductService.cs" Line="11" Column="1" />
+      <File FileName="eShopSolution.Application/Catalog/Products/ManageProductService.cs" Line="22" Column="34" />
+      <File FileName="eShopSolution.Application/Catalog/Products/PublicProductService.cs" Line="6" Column="38" />
+      <File FileName="eShopSolution.Data/Entities/Product.cs" Line="6" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="eShopSolution" expanded="True">
-            <Node name="eShopSolution.Data" expanded="True">
-              <Node name="Migrations" expanded="True">
-                <Node name="20210104100558_SeedingIndentity.cs" selected="True" />
+            <Node name="eShopSolution.Application" expanded="True">
+              <Node name="Catalog" expanded="True">
+                <Node name="Products" expanded="True">
+                  <Node name="Dtos" expanded="True" />
+                  <Node name="ManageProductService.cs" selected="True" />
+                </Node>
               </Node>
+              <Node name="Dtos" expanded="True" />
+            </Node>
+            <Node name="eShopSolution.Data" expanded="True">
+              <Node name="Entities" expanded="True" />
             </Node>
           </Node>
         </State>

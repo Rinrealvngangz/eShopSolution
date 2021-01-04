@@ -15,4 +15,13 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Catalog\" />
+    <Folder Include="Catalog\Products\" />
+    <Folder Include="Catalog\Products\Dtos\" />
+    <Folder Include="Dtos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\eShopSolution.Data\eShopSolution.Data.csproj" />
+  </ItemGroup>
 </Project>
