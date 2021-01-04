@@ -5,6 +5,7 @@
         <State name="__root__">
           <Node name="eShopSolution" expanded="True">
             <Node name="eShopSolution.Application" expanded="True" />
+            <Node name="eShopSolution.Data" selected="True" />
           </Node>
         </State>
       </Pad>
