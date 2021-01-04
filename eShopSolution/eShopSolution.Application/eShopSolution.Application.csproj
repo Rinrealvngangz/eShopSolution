@@ -20,8 +20,11 @@
     <Folder Include="Catalog\Products\" />
     <Folder Include="Catalog\Products\Dtos\" />
     <Folder Include="Dtos\" />
+    <Folder Include="Catalog\Products\Dtos\Manage\" />
+    <Folder Include="Catalog\Products\Dtos\Public\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\eShopSolution.Data\eShopSolution.Data.csproj" />
+    <ProjectReference Include="..\eShopSolution.Utilities\eShopSolution.Utilities.csproj" />
   </ItemGroup>
 </Project>

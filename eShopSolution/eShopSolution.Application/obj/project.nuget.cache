@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RsTdMcnyWSKA836pngJ5sGwpcSXQK/voHTEY9Ii8YNkBnISpkFaVgZemDB+5csJDzq+6rk/pEwA1sq+1xpxxcg==",
+  "dgSpecHash": "t80QdhQprPsosvMsjIwsrvyGdyH3vynskqAopE3++NAT6MvusHzphwafuLRRM8CwhVVLFZTbUpQhS6ZlFZDFMA==",
   "success": true,
   "projectFilePath": "/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/eShopSolution.Application.csproj",
   "expectedPackageFiles": [
