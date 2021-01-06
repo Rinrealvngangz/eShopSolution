@@ -1,0 +1,8 @@
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/bin/Debug/netcoreapp3.1/eShopSolution.ViewModels.deps.json
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/bin/Debug/netcoreapp3.1/eShopSolution.ViewModels.dll
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/bin/Debug/netcoreapp3.1/eShopSolution.ViewModels.pdb
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/obj/Debug/netcoreapp3.1/eShopSolution.ViewModels.AssemblyInfoInputs.cache
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/obj/Debug/netcoreapp3.1/eShopSolution.ViewModels.AssemblyInfo.cs
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/obj/Debug/netcoreapp3.1/eShopSolution.ViewModels.csproj.CoreCompileInputs.cache
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/obj/Debug/netcoreapp3.1/eShopSolution.ViewModels.dll
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/obj/Debug/netcoreapp3.1/eShopSolution.ViewModels.pdb

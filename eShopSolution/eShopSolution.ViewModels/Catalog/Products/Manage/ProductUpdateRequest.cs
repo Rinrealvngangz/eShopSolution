@@ -1,5 +1,7 @@
 ﻿using System;
-namespace eShopSolution.Application.Catalog.Products.Dtos.Manage
+using Microsoft.AspNetCore.Http;
+
+namespace eShopSolution.ViewModels.Catalog.Products.Manage
 {
     public class ProductUpdateRequest
     {
@@ -18,6 +20,8 @@ namespace eShopSolution.Application.Catalog.Products.Dtos.Manage
         public string SeoAlias { get; set; }
 
         public string LanguageId { set; get; }
+
+        public IFormFile ThumbnailImage { get; set; }
 
     }
 }

@@ -14,17 +14,16 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Catalog\" />
     <Folder Include="Catalog\Products\" />
-    <Folder Include="Catalog\Products\Dtos\" />
-    <Folder Include="Dtos\" />
-    <Folder Include="Catalog\Products\Dtos\Manage\" />
-    <Folder Include="Catalog\Products\Dtos\Public\" />
+    <Folder Include="Common\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\eShopSolution.Data\eShopSolution.Data.csproj" />
     <ProjectReference Include="..\eShopSolution.Utilities\eShopSolution.Utilities.csproj" />
+    <ProjectReference Include="..\eShopSolution.ViewModels\eShopSolution.ViewModels.csproj" />
   </ItemGroup>
 </Project>

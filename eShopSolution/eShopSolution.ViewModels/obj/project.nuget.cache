@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "v8PPVPVJVjQ34hS8vtiiPn/yIx+Wpp0NKKhPnE2KvCYIQh/4TqXoulMnukMl7y+rWP495KnZIz/CfFvKdlpCuQ==",
+  "success": true,
+  "projectFilePath": "/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/eShopSolution.ViewModels.csproj",
+  "expectedPackageFiles": [
+    "/Users/tuannguyen/.nuget/packages/microsoft.aspnetcore.http.features/5.0.1/microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512",
+    "/Users/tuannguyen/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/tuannguyen/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

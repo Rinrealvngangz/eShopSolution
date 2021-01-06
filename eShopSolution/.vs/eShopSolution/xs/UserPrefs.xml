@@ -1,35 +1,42 @@
 ﻿<Properties StartupConfiguration="{8478410A-C6FA-4F48-80F1-71052BFA751C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="eShopSolution.Data/Migrations/20210104144846_AddProductImageTable.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="eShopSolution.Application/Catalog/Products/IPublicProductService.cs">
     <Files>
-      <File FileName="eShopSolution.Data/EF/EShopDbContext.cs" Line="20" Column="10" />
-      <File FileName="eShopSolution.Application/Dtos/PagedViewModel.cs" Line="13" Column="1" />
-      <File FileName="eShopSolution.Application/Catalog/Products/IManageProductService.cs" Line="22" Column="1" />
-      <File FileName="eShopSolution.Application/Catalog/Products/IPublicProductService.cs" Line="14" Column="1" />
-      <File FileName="eShopSolution.Application/Catalog/Products/PublicProductService.cs" Line="43" Column="48" />
-      <File FileName="eShopSolution.Application/Catalog/Products/ManageProductService.cs" Line="108" Column="32" />
-      <File FileName="eShopSolution.Application/Dtos/PagingResultRequest.cs" Line="13" Column="1" />
-      <File FileName="eShopSolution.Application/Catalog/Products/Dtos/GetProductPaggingRequest.cs" Line="12" Column="1" />
-      <File FileName="eShopSolution.Application/Catalog/Products/Dtos/ProductCreateRequest.cs" Line="3" Column="65" />
-      <File FileName="eShopSolution.Data/Entities/Product.cs" Line="21" Column="62" />
-      <File FileName="eShopSolution.Application/Catalog/Products/Dtos/ProductUpdateRequest.cs" Line="20" Column="47" />
-      <File FileName="eShopSolution.Application/Catalog/Products/Dtos/Manage/ProductViewModel.cs" Line="19" Column="1" />
-      <File FileName="eShopSolution.Application/Catalog/Products/Dtos/Public/GetProductPaggingRequest.cs" Line="11" Column="1" />
-      <File FileName="eShopSolution.Data/Entities/Language.cs" Line="19" Column="1" />
-      <File FileName="eShopSolution.Utilities/Exceptions/EShopException.cs" Line="11" Column="1" />
-      <File FileName="eShopSolution.Data/Entities/ProductInCategory.cs" Line="1" Column="1" />
-      <File FileName="eShopSolution.Data/Entities/ProductImage.cs" Line="14" Column="44" />
-      <File FileName="eShopSolution.Data/Configurations/ProductImageConfiguration.cs" Line="24" Column="1" />
-      <File FileName="eShopSolution.Data/Configurations/OrderConfiguration.cs" Line="14" Column="39" />
-      <File FileName="eShopSolution.Data/Configurations/ProductConfiguration.cs" Line="20" Column="2" />
-      <File FileName="eShopSolution.Data/Migrations/20210104144846_AddProductImageTable.cs" Line="1" Column="1" />
+      <File FileName="eShopSolution.Data/EF/EShopDbContext.cs" Line="78" Column="1" />
+      <File FileName="eShopSolution.Application/Catalog/Products/ManageProductService.cs" Line="14" Column="17" />
+      <File FileName="eShopSolution.Application/Common/IstorageService.cs" Line="16" Column="1" />
+      <File FileName="eShopSolution.Application/Common/FileStorageService.cs" Line="7" Column="2" />
+      <File FileName="eShopSolution.Application/Catalog/Products/PublicProductService.cs" Line="12" Column="49" />
+      <File FileName="eShopSolution.ViewModels/Catalog/Products/ProductViewModel.cs" Line="14" Column="1" />
+      <File FileName="eShopSolution.ViewModels/Catalog/Products/Manage/ProductCreateRequest.cs" Line="3" Column="31" />
+      <File FileName="eShopSolution.Application/Catalog/Products/IPublicProductService.cs" Line="6" Column="55" />
+      <File FileName="eShopSolution.ViewModels/Catalog/Products/Manage/ProductUpdateRequest.cs" Line="4" Column="31" />
+      <File FileName="eShopSolution.Application/Catalog/Products/IManageProductService.cs" Line="4" Column="56" />
+      <File FileName="eShopSolution.ViewModels/Catalog/Products/Public/ProductImageViewModel.cs" Line="3" Column="2" />
+      <File FileName="eShopSolution.ViewModels/Catalog/Common/PagedResult.cs" Line="4" Column="31" />
+      <File FileName="eShopSolution.ViewModels/Catalog/Common/PagingResultRequest.cs" Line="4" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="eShopSolution" expanded="True">
+            <Node name="eShopSolution.Application" expanded="True">
+              <Node name="Catalog" expanded="True">
+                <Node name="Products" expanded="True">
+                  <Node name="IPublicProductService.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Common" expanded="True" />
+            </Node>
             <Node name="eShopSolution.Data" expanded="True">
-              <Node name="Migrations" expanded="True">
-                <Node name="20210104144846_AddProductImageTable.cs" selected="True" />
+              <Node name="EF" expanded="True" />
+            </Node>
+            <Node name="eShopSolution.ViewModels" expanded="True">
+              <Node name="Catalog" expanded="True">
+                <Node name="Common" expanded="True" />
+                <Node name="Products" expanded="True">
+                  <Node name="Manage" expanded="True" />
+                  <Node name="Public" expanded="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -44,5 +51,4 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.eShopSolution.Utilities FirstBuild="True" />
 </Properties>
