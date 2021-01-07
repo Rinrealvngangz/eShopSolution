@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using eShopSolution.Utilities.Constants;
 using Microsoft.AspNetCore.Http;
+using eShopSolution.Application.Catalog.Products;
 
 namespace eShopSolution.Backend.Api
 {
@@ -27,7 +28,8 @@ namespace eShopSolution.Backend.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            //Declare DI
+            services.AddTransient<IPublicProductService, PublicProductService>();
            
             services.AddDbContext<EShopDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
             services.AddControllersWithViews();

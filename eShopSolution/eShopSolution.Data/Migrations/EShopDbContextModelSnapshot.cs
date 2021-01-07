@@ -180,7 +180,7 @@ namespace eShopSolution.Data.Migrations
                         new
                         {
                             Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
-                            ConcurrencyStamp = "02d915fb-a2be-47e8-80b2-a630bc9d40fe",
+                            ConcurrencyStamp = "ad1f56e4-edd9-404c-839c-b83b6cc565ee",
                             Description = "Administrator role",
                             Name = "admin",
                             NormalizedName = "admin"
@@ -257,7 +257,7 @@ namespace eShopSolution.Data.Migrations
                         {
                             Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d231fe03-ca04-4b9b-bdb4-c1a4225cfe76",
+                            ConcurrencyStamp = "771f8911-c99b-46de-8d8b-f4f61fc03b93",
                             Dob = new DateTime(2020, 1, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "tuannmctk42@gmail.com",
                             EmailConfirmed = true,
@@ -266,7 +266,7 @@ namespace eShopSolution.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "tuannmctk42@gmail.com",
                             NormalizedUserName = "admin",
-                            PasswordHash = "AQAAAAEAACcQAAAAED8/eB97+2T0LIOyRC6LPUjvtFCcIUop5ARVHgEA7iUS1WPoHbbg52iSGUEkFuW4tA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEGLas+qDeJQftnS01afFPczBbBq+scQLmpcgUDWhR0aLrCwFGxJ6yCnBuqr/pjcpHw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -602,7 +602,7 @@ namespace eShopSolution.Data.Migrations
                         new
                         {
                             Id = 1,
-                            DateCreated = new DateTime(2021, 1, 4, 21, 48, 45, 120, DateTimeKind.Local).AddTicks(2080),
+                            DateCreated = new DateTime(2021, 1, 7, 7, 23, 19, 588, DateTimeKind.Local).AddTicks(6095),
                             OriginalPrice = 100000m,
                             Price = 200000m,
                             Stock = 0,
@@ -642,7 +642,7 @@ namespace eShopSolution.Data.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("ProductImage");
+                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("eShopSolution.Data.Entities.ProductInCategory", b =>
