@@ -1,0 +1,12 @@
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/bin/Debug/netcoreapp3.1/eShopSolution.Data.deps.json
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/bin/Debug/netcoreapp3.1/eShopSolution.Data.runtimeconfig.json
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/bin/Debug/netcoreapp3.1/eShopSolution.Data.runtimeconfig.dev.json
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/bin/Debug/netcoreapp3.1/eShopSolution.Data.dll
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/bin/Debug/netcoreapp3.1/eShopSolution.Data.pdb
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/obj/Debug/netcoreapp3.1/eShopSolution.Data.AssemblyInfoInputs.cache
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/obj/Debug/netcoreapp3.1/eShopSolution.Data.AssemblyInfo.cs
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/obj/Debug/netcoreapp3.1/eShopSolution.Data.csproj.CoreCompileInputs.cache
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/obj/Debug/netcoreapp3.1/eShopSolution.Data.dll
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/obj/Debug/netcoreapp3.1/eShopSolution.Data.pdb
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/obj/Debug/netcoreapp3.1/eShopSolution.Data.genruntimeconfig.cache
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/obj/Debug/netcoreapp3.1/eShopSolution.Data.csprojAssemblyReference.cache
