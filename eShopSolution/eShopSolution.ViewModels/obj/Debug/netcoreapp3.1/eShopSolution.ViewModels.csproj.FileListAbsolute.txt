@@ -6,3 +6,4 @@
 /Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/obj/Debug/netcoreapp3.1/eShopSolution.ViewModels.csproj.CoreCompileInputs.cache
 /Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/obj/Debug/netcoreapp3.1/eShopSolution.ViewModels.dll
 /Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/obj/Debug/netcoreapp3.1/eShopSolution.ViewModels.pdb
+/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/obj/Debug/netcoreapp3.1/eShopSolution.ViewModels.csprojAssemblyReference.cache

@@ -14,7 +14,7 @@
         "outputPath": "/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tuannguyen/.config/NuGet/NuGet.Config"
+          "/Users/tuannguyen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -97,7 +97,7 @@
         "outputPath": "/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tuannguyen/.config/NuGet/NuGet.Config"
+          "/Users/tuannguyen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -183,7 +183,7 @@
         "outputPath": "/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Utilities/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tuannguyen/.config/NuGet/NuGet.Config"
+          "/Users/tuannguyen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -235,7 +235,7 @@
         "outputPath": "/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.ViewModels/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/tuannguyen/.config/NuGet/NuGet.Config"
+          "/Users/tuannguyen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

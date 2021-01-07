@@ -6,7 +6,6 @@ using eShopSolution.Data.EF;
 using eShopSolution.Data.Entities;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using eShopSolution.ViewModels.Catalog.Products.Manage;
 using eShopSolution.Application.Common;
 using eShopSolution.ViewModels.Common;
 using Microsoft.AspNetCore.Http;
@@ -90,7 +89,7 @@ namespace eShopSolution.Application.Catalog.Products
             return await _context.SaveChangesAsync();
 
         }
-        public async Task<PagedResult<ProductViewModel>> GetAllPading(GetProductPaggingRequest request)
+        public async Task<PagedResult<ProductViewModel>> GetAllPading(GetManageProductPaggingRequest request)
         {
             //1. Select Join
             var query = from p in _context.Products
