@@ -57,7 +57,7 @@ namespace eShopSolution.Application.Catalog.Products
                         LanguageId = request.LanguageId
                     }
                 }
-            };
+        };
 
             //Save image
             if (request.ThumbnailImage != null)
@@ -76,8 +76,8 @@ namespace eShopSolution.Application.Catalog.Products
                 };
             }
                 _context.Products.Add(product);
-          return  await _context.SaveChangesAsync();
-
+            await _context.SaveChangesAsync();
+                 return product.Id;
         }
 
       public async Task<int> Delete(int productId)
@@ -181,9 +181,26 @@ namespace eShopSolution.Application.Catalog.Products
             return await _context.SaveChangesAsync() > 0;
         }
 
-        public Task<int> AddImages(string productId, List<IFormFile> files)
+        private async Task<string> SaveFile(IFormFile file)
         {
-            throw new NotImplementedException();
+            var originalFileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
+            var fileName = $"{Guid.NewGuid()}{Path.GetExtension(originalFileName)}";
+            await _storageService.SaveFileAsync(file.OpenReadStream(), fileName);
+            
+            return fileName;
+        }
+
+//fix error
+        public async Task<ProductViewModel> GetById(int productId)
+        {
+           
+             var product = await _context.Products.FindAsync(productId);       
+             return product;
+        }
+
+            public  Task<int> AddImages(string productId, List<IFormFile> files)
+        {
+           throw new NotImplementedException();
         }
 
 
@@ -201,18 +218,6 @@ namespace eShopSolution.Application.Catalog.Products
         {
             throw new NotImplementedException();
         }
-
-        private async Task<string> SaveFile(IFormFile file)
-        {
-            var originalFileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
-            var fileName = $"{Guid.NewGuid()}{Path.GetExtension(originalFileName)}";
-            await _storageService.SaveFileAsync(file.OpenReadStream(), fileName);
-            
-            return fileName;
-        }
-
-
-
 
     }
 }

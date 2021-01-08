@@ -11,6 +11,7 @@
     "eShopSolution.Backend.Api": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl":"swagger",
       "applicationUrl": "https://localhost:25116;http://localhost:51543",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"

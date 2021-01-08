@@ -22,6 +22,8 @@ namespace eShopSolution.Application.Catalog.Products
 
         Task AddViewCount(int productId);
 
+        Task<ProductViewModel> GetById(int productId);
+
        Task<PagedResult<ProductViewModel>> GetAllPading(GetManageProductPaggingRequest request);
 
         Task<int> AddImages(string productId, List<IFormFile> files );
