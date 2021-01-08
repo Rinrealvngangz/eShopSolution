@@ -165,3 +165,8 @@ D:\Dev\eShopSolution\eShopSolution\eShopSolution.Backend.Api\obj\Debug\netcoreap
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.Backend.Api\obj\Debug\netcoreapp3.1\eShopSolution.Backend.Api.dll
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.Backend.Api\obj\Debug\netcoreapp3.1\eShopSolution.Backend.Api.pdb
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.Backend.Api\obj\Debug\netcoreapp3.1\eShopSolution.Backend.Api.genruntimeconfig.cache
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.Backend.Api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.Backend.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.Backend.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.Backend.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.Backend.Api\obj\Debug\netcoreapp3.1\eShopSolution.Backend.Api.MvcApplicationPartsAssemblyInfo.cs

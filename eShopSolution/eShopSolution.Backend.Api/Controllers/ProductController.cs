@@ -12,6 +12,7 @@ namespace eShopSolution.Backend.Api.Controllers
     [Route("api/[controller]")]
     public class ProductController : Controller
     {
+        
        private readonly IPublicProductService _publicProductService;
         public ProductController(IPublicProductService publicProductService)
         {
