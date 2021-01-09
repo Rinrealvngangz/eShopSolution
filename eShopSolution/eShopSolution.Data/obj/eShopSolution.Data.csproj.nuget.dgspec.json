@@ -1,30 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/eShopSolution.Data.csproj": {}
+    "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {}
   },
   "projects": {
-    "/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/eShopSolution.Data.csproj": {
+    "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/eShopSolution.Data.csproj",
+        "projectUniqueName": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
         "projectName": "eShopSolution.Data",
-        "projectPath": "/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/eShopSolution.Data.csproj",
-        "packagesPath": "/Users/tuannguyen/.nuget/packages/",
-        "outputPath": "/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Data/obj/",
+        "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
+        "packagesPath": "C:\\Users\\tuann\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/tuannguyen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\tuann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -36,7 +41,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -86,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
