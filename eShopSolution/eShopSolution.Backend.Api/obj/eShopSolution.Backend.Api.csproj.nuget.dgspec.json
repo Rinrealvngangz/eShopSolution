@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj": {}
+    "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj": {}
   },
   "projects": {
     "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj": {
@@ -91,14 +91,14 @@
         }
       }
     },
-    "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj": {
+    "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj",
+        "projectUniqueName": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj",
         "projectName": "eShopSolution.Backend.Api",
-        "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj",
+        "projectPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj",
         "packagesPath": "C:\\Users\\tuann\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\obj\\",
+        "outputPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using eShopSolution.ViewModels.Common;
 using Microsoft.AspNetCore.Http;
 using eShopSolution.ViewModels.Catalog.Products;
+using eShopSolution.ViewModels.Catalog.ProductImages;
 
 namespace eShopSolution.Application.Catalog.Products
 {
@@ -26,12 +27,16 @@ namespace eShopSolution.Application.Catalog.Products
 
        Task<PagedResult<ProductViewModel>> GetAllPading(GetManageProductPaggingRequest request);
 
-        Task<int> AddImages(string productId, List<IFormFile> files );
+        Task<int> AddImage(int productId, ProductImageCreateRequest request);
 
-        Task<int> RemoveImages(string imageId);
+        Task<int> RemoveImage( int imageId);
 
-        Task<int> UpdateImages(string imagesId, string Caption ,bool isDefault);
+        Task<int> UpdateImage( int imagesId, ProductImageUpdateRequest request);
 
+        Task<ProductImageViewModel> GetImageById(int imageId);
         Task<List<ProductImageViewModel>> GetListImage(int productId);
+  
+
+  
     }
 }
