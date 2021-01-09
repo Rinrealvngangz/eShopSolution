@@ -22,43 +22,69 @@ namespace eShopSolution.Backend.Api.Controllers
         }
         // GET: api/values
         // http://localhost/product
-        [HttpGet]
-           public async Task<IActionResult> Get()
+        [HttpGet("{languageId}")]
+           public async Task<IActionResult> Get(string languageId)
         {
-            var product = await _publicProductService.GetAll();
+            var product = await _publicProductService.GetAll(languageId);
             return Ok(product);
         }
 
              // http://localhost/product/public-paging
-        [HttpGet("public-paging")]
-        public async Task<IActionResult> Get([FromQuery]GetProductPaggingRequest request){
+        [HttpGet("public-paging/{languageId}")]
+        public async Task<IActionResult> Get([FromQuery]GetProductPaggingRequest request)
+        {
 
           var product = await _publicProductService.GetAllByCategoryId(request);
           return Ok(product);
                 
         }
           // http://localhost/product/1
-          [HttpGet("{id}")]
-           public async Task<IActionResult> GetByID(int productId)
+          [HttpGet("{id}/{languageId}")]
+           public async Task<IActionResult> GetByID(int id, string languageId)
         {
-            var product = await _manageProductService.GetById(productId);
+            var product = await _manageProductService.GetById(id,languageId);
             if(product==null)return BadRequest("Cannot find product");
             return Ok(product);
         }
 
 
        [HttpPost]
-       public async Task<IActionResult> Create([FromBody]ProductCreateRequest request ){
+       public async Task<IActionResult> Create([FromForm]ProductCreateRequest request ){
                    
                    var productId = await _manageProductService.Create(request);
                    if(productId ==0)
                     return BadRequest();
-                   var product = await _manageProductService.GetById(productId);
-
+                   var product = await _manageProductService.GetById(productId ,request.LanguageId);
+                      //https://localhost:25116/Product/GetByID/2
                    return CreatedAtAction(nameof(GetByID),new {id=productId},product);
        }
 
+        [HttpPut]
+       public async Task<IActionResult> Update([FromForm]ProductUpdateRequest request ){
+                   
+                   var affectedResult = await _manageProductService.Update(request);
+                   if(affectedResult ==0)
+                    return BadRequest();
+                
+                   return Ok();
+       }
 
+        [HttpDelete("{id}")]
+       public async Task<IActionResult> Delete( int id ){
+                   
+                   var affectedResult = await _manageProductService.Delete(id);
+                   if(affectedResult ==0)
+                    return BadRequest();         
+                   return Ok();
+       }
+
+        [HttpPut("price/{id}/{newPrice}")]
+       public async Task<IActionResult> UpdatePrice(int id ,decimal newPrice ){
+                   
+                   var isSuccessful = await _manageProductService.UpdatePrice(id,newPrice);
+                   if(isSuccessful) return Ok();
+                    return BadRequest();
+       }
 
 
 

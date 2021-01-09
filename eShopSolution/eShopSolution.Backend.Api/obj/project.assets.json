@@ -6450,11 +6450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj",
+      "projectUniqueName": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj",
       "projectName": "eShopSolution.Backend.Api",
-      "projectPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj",
+      "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj",
       "packagesPath": "C:\\Users\\tuann\\.nuget\\packages\\",
-      "outputPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\obj\\",
+      "outputPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -6474,17 +6474,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj": {
-              "projectPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj"
+            "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj": {
+              "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj"
             },
-            "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
-              "projectPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj"
+            "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
+              "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj"
             },
-            "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj": {
-              "projectPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj"
+            "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj": {
+              "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj"
             },
-            "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
-              "projectPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj"
+            "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
+              "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj"
             }
           }
         }

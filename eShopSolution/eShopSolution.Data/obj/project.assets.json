@@ -6219,11 +6219,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
+      "projectUniqueName": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
       "projectName": "eShopSolution.Data",
-      "projectPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
+      "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
       "packagesPath": "C:\\Users\\tuann\\.nuget\\packages\\",
-      "outputPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\obj\\",
+      "outputPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
