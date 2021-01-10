@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj": {}
+    "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj": {
+    "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj",
+        "projectUniqueName": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj",
         "projectName": "eShopSolution.WebApp",
-        "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj",
+        "projectPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj",
         "packagesPath": "C:\\Users\\tuann\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\obj\\",
+        "outputPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

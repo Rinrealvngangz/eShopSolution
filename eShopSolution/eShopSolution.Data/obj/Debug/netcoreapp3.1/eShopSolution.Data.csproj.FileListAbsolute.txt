@@ -21,3 +21,4 @@ D:\Dev\eShopSolution\eShopSolution\eShopSolution.Data\obj\Debug\netcoreapp3.1\eS
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.Data\obj\Debug\netcoreapp3.1\eShopSolution.Data.dll
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.Data\obj\Debug\netcoreapp3.1\eShopSolution.Data.pdb
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.Data\obj\Debug\netcoreapp3.1\eShopSolution.Data.genruntimeconfig.cache
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.Data\obj\Debug\netcoreapp3.1\eShopSolution.Data.csprojAssemblyReference.cache

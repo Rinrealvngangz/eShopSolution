@@ -13,6 +13,8 @@ using Microsoft.Extensions.Hosting;
 using eShopSolution.Utilities.Constants;
 using Microsoft.AspNetCore.Http;
 using eShopSolution.Application.Catalog.Products;
+using Microsoft.OpenApi.Models;
+using eShopSolution.Application.Common;
 
 namespace eShopSolution.Backend.Api
 {
@@ -30,9 +32,18 @@ namespace eShopSolution.Backend.Api
         {
             //Declare DI
             services.AddTransient<IPublicProductService, PublicProductService>();
-           
+             services.AddTransient<IManageProductService,ManageProductService>();
+             services.AddTransient<IstorageService,FileStorageService>();
+             
             services.AddDbContext<EShopDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
             services.AddControllersWithViews();
+            
+            //Swagger
+            services.AddSwaggerGen(c=>{
+                      c.SwaggerDoc("v1",new OpenApiInfo{Title = "eShop Solution", Version= "v1" });
+            });
+                
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -54,6 +65,13 @@ namespace eShopSolution.Backend.Api
             app.UseRouting();
 
             app.UseAuthorization();
+
+           app.UseSwagger();
+
+           app.UseSwaggerUI(c=>{
+               c.SwaggerEndpoint("/swagger/v1/swagger.json","Swagger eShopSolution v1");
+               
+               });
 
             app.UseEndpoints(endpoints =>
             {
