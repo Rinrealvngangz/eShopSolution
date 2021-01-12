@@ -1,38 +1,19 @@
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/bin/Debug/netcoreapp3.1/eShopSolution.Application.deps.json
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/bin/Debug/netcoreapp3.1/eShopSolution.Application.runtimeconfig.json
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/bin/Debug/netcoreapp3.1/eShopSolution.Application.runtimeconfig.dev.json
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/bin/Debug/netcoreapp3.1/eShopSolution.Application.dll
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/bin/Debug/netcoreapp3.1/eShopSolution.Application.pdb
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/bin/Debug/netcoreapp3.1/eShopSolution.Data.dll
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/bin/Debug/netcoreapp3.1/eShopSolution.Utilities.dll
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/bin/Debug/netcoreapp3.1/eShopSolution.ViewModels.dll
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/bin/Debug/netcoreapp3.1/eShopSolution.Data.pdb
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/bin/Debug/netcoreapp3.1/eShopSolution.Utilities.pdb
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/bin/Debug/netcoreapp3.1/eShopSolution.ViewModels.pdb
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/obj/Debug/netcoreapp3.1/eShopSolution.Application.csprojAssemblyReference.cache
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/obj/Debug/netcoreapp3.1/eShopSolution.Application.AssemblyInfoInputs.cache
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/obj/Debug/netcoreapp3.1/eShopSolution.Application.AssemblyInfo.cs
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/obj/Debug/netcoreapp3.1/eShopSolution.Application.csproj.CoreCompileInputs.cache
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/obj/Debug/netcoreapp3.1/eShopSolution.Application.csproj.CopyComplete
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/obj/Debug/netcoreapp3.1/eShopSolution.Application.dll
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/obj/Debug/netcoreapp3.1/eShopSolution.Application.pdb
-/Users/tuannguyen/dev/Project dotnet Core/eShopSolution/eShopSolution/eShopSolution.Application/obj/Debug/netcoreapp3.1/eShopSolution.Application.genruntimeconfig.cache
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.deps.json
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.runtimeconfig.json
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.runtimeconfig.dev.json
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.dll
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.pdb
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Data.dll
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Utilities.dll
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.ViewModels.dll
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Data.pdb
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Utilities.pdb
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.ViewModels.pdb
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.csprojAssemblyReference.cache
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.AssemblyInfoInputs.cache
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.AssemblyInfo.cs
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.csproj.CoreCompileInputs.cache
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.csproj.CopyComplete
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.dll
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.pdb
-D:\Dev\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.genruntimeconfig.cache
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.deps.json
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.runtimeconfig.json
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.runtimeconfig.dev.json
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Application.pdb
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Data.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Utilities.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.ViewModels.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Data.pdb
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.Utilities.pdb
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\bin\Debug\netcoreapp3.1\eShopSolution.ViewModels.pdb
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.csprojAssemblyReference.cache
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.AssemblyInfoInputs.cache
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.AssemblyInfo.cs
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.csproj.CoreCompileInputs.cache
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.csproj.CopyComplete
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.pdb
+D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Application\obj\Debug\netcoreapp3.1\eShopSolution.Application.genruntimeconfig.cache

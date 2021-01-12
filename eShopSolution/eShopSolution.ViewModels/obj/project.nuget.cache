@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0DTYJj/SdYfNo4PikpiOwUtzG0iS0cTIa+XoJBcepCd423sVjD3rgwbeZDLyuX9x/WeC5Wb/PTK3D0WnrtBcBA==",
+  "dgSpecHash": "SMARNBQmWkek/v3TrbW+4LWnBei3yLFlwP2Vn9+iGCiYPwEiuA+FYBr100dEHGCgYO5UyEaA0N8p4ypa9JERqQ==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
+  "projectFilePath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tuann\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.1\\microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",

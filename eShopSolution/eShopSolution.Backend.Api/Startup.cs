@@ -15,6 +15,10 @@ using Microsoft.AspNetCore.Http;
 using eShopSolution.Application.Catalog.Products;
 using Microsoft.OpenApi.Models;
 using eShopSolution.Application.Common;
+using Microsoft.AspNetCore.Identity;
+using eShopSolution.Data.Entities;
+using eShopSolution.Application.System.Users;
+using Microsoft.IdentityModel.Logging;
 
 namespace eShopSolution.Backend.Api
 {
@@ -30,11 +34,19 @@ namespace eShopSolution.Backend.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddIdentity<AppUser,AppRole>()
+                    .AddEntityFrameworkStores<EShopDbContext>()
+                    .AddDefaultTokenProviders();
             //Declare DI
             services.AddTransient<IPublicProductService, PublicProductService>();
              services.AddTransient<IManageProductService,ManageProductService>();
              services.AddTransient<IstorageService,FileStorageService>();
-             
+             services.AddTransient<UserManager<AppUser>,UserManager<AppUser>>();
+             services.AddTransient<SignInManager<AppUser>,SignInManager<AppUser>>();
+            services.AddTransient<RoleManager<AppRole>,RoleManager<AppRole>>();
+             services.AddTransient<IUserService,UserService>();
+            
+
             services.AddDbContext<EShopDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
             services.AddControllersWithViews();
             
@@ -52,6 +64,7 @@ namespace eShopSolution.Backend.Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                IdentityModelEventSource.ShowPII = true; 
             }
             else
             {
