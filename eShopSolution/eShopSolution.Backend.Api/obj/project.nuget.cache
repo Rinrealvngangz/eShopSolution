@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "0KAgUUM1TsWzA1HFaYX1//L3KDSSnwxseuu/nOX5GbaJvzzzsgWznaI4c8c9hlc5VqZgSQqjfCo7DFsSmfXlyQ==",
+  "dgSpecHash": "OOSNCyvWNVVqtVtkLDZ6IAe/ICGuxPzvk/931X9gZCa/o95QjVUp/a+uQS6FG3ICj3cZ/hSLuM4gBVOF70GRjA==",
   "success": true,
   "projectFilePath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tuann\\.nuget\\packages\\identitymodel\\4.6.0\\identitymodel.4.6.0.nupkg.sha512",
+    "C:\\Users\\tuann\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.1\\microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.1\\microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512",

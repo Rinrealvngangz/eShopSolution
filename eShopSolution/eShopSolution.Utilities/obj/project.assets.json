@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj",
+      "projectUniqueName": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj",
       "projectName": "eShopSolution.Utilities",
-      "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj",
+      "projectPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj",
       "packagesPath": "C:\\Users\\tuann\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\obj\\",
+      "outputPath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -37,6 +37,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -48,6 +49,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -63,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

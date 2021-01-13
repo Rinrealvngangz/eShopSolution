@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Net;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,11 +8,13 @@ using Microsoft.AspNetCore.Mvc;
 
 using eShopSolution.ViewModels.Catalog.Products;
 using eShopSolution.ViewModels.Catalog.ProductImages;
+using Microsoft.AspNetCore.Authorization;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace eShopSolution.Backend.Api.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     public class ProductsController : Controller
     {
         
