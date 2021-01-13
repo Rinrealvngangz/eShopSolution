@@ -21,6 +21,9 @@ using eShopSolution.Application.System.Users;
 using Microsoft.IdentityModel.Logging;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using eShopSolution.ViewModels.Catalog.System.Users;
 
 namespace eShopSolution.Backend.Api
 {
@@ -47,7 +50,13 @@ namespace eShopSolution.Backend.Api
              services.AddTransient<SignInManager<AppUser>,SignInManager<AppUser>>();
             services.AddTransient<RoleManager<AppRole>,RoleManager<AppRole>>();
              services.AddTransient<IUserService,UserService>();
-            
+
+                //services.AddTransient<IValidator<LoginRequest>, LoginRequestValidator>();
+            //services.AddTransient<IValidator<RegisterRequest>, RegisterRequestValidator>();
+             services.AddControllers()
+                      .AddFluentValidation(
+                      fv => fv.RegisterValidatorsFromAssemblyContaining<LoginRequestValidator>());
+
 
         
             //Swagger
@@ -84,7 +93,7 @@ namespace eShopSolution.Backend.Api
             });
 
             services.AddDbContext<EShopDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
-            services.AddControllers();
+           
             string issuer = Configuration.GetValue<string>("Tokens:Issuer");
             string signingKey = Configuration.GetValue<string>("Tokens:Key");
             byte[] signingKeyBytes = System.Text.Encoding.UTF8.GetBytes(signingKey);

@@ -90,3 +90,6 @@ D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Backend.Api\obj\D
 D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Backend.Api\obj\Debug\netcoreapp3.1\eShopSolution.Backend.Api.pdb
 D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Backend.Api\obj\Debug\netcoreapp3.1\eShopSolution.Backend.Api.genruntimeconfig.cache
 D:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Backend.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+d:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Backend.Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
+d:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Backend.Api\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+d:\Dev\eShopSolution\eShopSolution\eShopSolution\eShopSolution.Backend.Api\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JuQSEcAZo3bnTcT3LaSutwUMgEf4ZZPhYS1bmTeWVmFFCtHUajbcFqYv4SY/LVEQrblmLHhRGwe8FlvOssh1Dw==",
+  "dgSpecHash": "o+T9myFWIXsGPaHTqqrLwrDyIbiDi4xtLDu1NQL+ynCOEkmqoG2sIh/rGLeLCLpFMfGjN/hY5lILzM1e3d+U6Q==",
   "success": true,
   "projectFilePath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tuann\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
+    "C:\\Users\\tuann\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
+    "C:\\Users\\tuann\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.1\\microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
