@@ -5,7 +5,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using eShopSolution.Application.Catalog.Products;
 using Microsoft.AspNetCore.Mvc;
-
 using eShopSolution.ViewModels.Catalog.Products;
 using eShopSolution.ViewModels.Catalog.ProductImages;
 using Microsoft.AspNetCore.Authorization;

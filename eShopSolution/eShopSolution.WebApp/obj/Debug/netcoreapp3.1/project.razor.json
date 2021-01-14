@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj",
+  "FilePath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14387,43 +14387,43 @@
         }
       }
     ],
-    "CSharpLanguageVersion": 900
+    "CSharpLanguageVersion": 800
   },
   "RootNamespace": "eShopSolution.WebApp",
   "Documents": [
     {
-      "FilePath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\_ViewImports.cshtml",
+      "FilePath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     }
   ],

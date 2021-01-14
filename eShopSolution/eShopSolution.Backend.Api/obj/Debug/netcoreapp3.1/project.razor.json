@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj",
+  "FilePath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14387,7 +14387,7 @@
         }
       }
     ],
-    "CSharpLanguageVersion": 900
+    "CSharpLanguageVersion": 800
   },
   "RootNamespace": "eShopSolution.Backend.Api",
   "Documents": [],

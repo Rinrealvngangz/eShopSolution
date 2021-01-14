@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "ez6nO8hKuHKxxBeGpzgR2wEbC1Sc/EvKW024mmvtjjzFKP89i1xoXhkslOMqvD7+Z4K43u1Cocz/GjKoJd8UOw==",
+  "dgSpecHash": "jnCW+CO2UjUUHWjfJzanCY3PI+HW2UNEeBxmW1D2+QJ/pVVp70hPtTM/yfmmcZx2jx6kluyc2Uv3lo6bYtBX5w==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
+  "projectFilePath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tuann\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
-    "C:\\Users\\tuann\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
-    "C:\\Users\\tuann\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
-    "C:\\Users\\tuann\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.1\\microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512",
-    "C:\\Users\\tuann\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
-    "C:\\Users\\tuann\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "C:\\Users\\tuann\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+    "C:\\Users\\Rinreal\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
+    "C:\\Users\\Rinreal\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
+    "C:\\Users\\Rinreal\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
+    "C:\\Users\\Rinreal\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.1\\microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512",
+    "C:\\Users\\Rinreal\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\Rinreal\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Rinreal\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }
