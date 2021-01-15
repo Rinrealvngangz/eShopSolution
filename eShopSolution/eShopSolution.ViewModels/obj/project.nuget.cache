@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jnCW+CO2UjUUHWjfJzanCY3PI+HW2UNEeBxmW1D2+QJ/pVVp70hPtTM/yfmmcZx2jx6kluyc2Uv3lo6bYtBX5w==",
+  "dgSpecHash": "XzDo7qX9AFCYZNO1Y741kbrn4iYaTPx3/sFEAX/m7Q3MytQc8e4cVsDJ1DG3Xm4REVRPWrG/21vj7G2as9IZAg==",
   "success": true,
-  "projectFilePath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
+  "projectFilePath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rinreal\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\Rinreal\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",

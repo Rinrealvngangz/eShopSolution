@@ -17,7 +17,7 @@ namespace eShopSolution.Backend.Api.Controllers
         [HttpPost("authenticate")]
         [AllowAnonymous]
 
-        public async Task<IActionResult> Authenticate([FromForm] LoginRequest request){
+        public async Task<IActionResult> Authenticate([FromBody] LoginRequest request){
                   if(!ModelState.IsValid){
                       return BadRequest(ModelState);
                   }

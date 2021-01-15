@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {}
+    "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {}
   },
   "projects": {
-    "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
+    "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
+        "projectUniqueName": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
         "projectName": "eShopSolution.Data",
-        "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
+        "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
         "packagesPath": "C:\\Users\\Rinreal\\.nuget\\packages\\",
-        "outputPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\obj\\",
+        "outputPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rinreal\\AppData\\Roaming\\NuGet\\NuGet.Config"

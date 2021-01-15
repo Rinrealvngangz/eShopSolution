@@ -8,7 +8,10 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using eShopSolution.ViewModels.Catalog.System.Users;
+using eShopSolution_AdminApp.Sevices;
 namespace eShopSolution_AdminApp
 {
     public class Startup
@@ -23,7 +26,19 @@ namespace eShopSolution_AdminApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddHttpClient();
+            services.AddControllersWithViews().AddFluentValidation(
+                      fv => fv.RegisterValidatorsFromAssemblyContaining<LoginRequestValidator>());
+           services.AddTransient<IUserApiClient,UserApiClient>();
+              IMvcBuilder builder = services.AddRazorPages();
+            var environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+
+        #if DEBUG
+            if (environment == Environments.Development)
+            {
+                builder.AddRazorRuntimeCompilation();
+            }
+        #endif
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

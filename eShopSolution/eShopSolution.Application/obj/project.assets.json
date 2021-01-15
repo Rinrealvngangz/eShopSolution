@@ -6428,11 +6428,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj",
+      "projectUniqueName": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj",
       "projectName": "eShopSolution.Application",
-      "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj",
+      "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj",
       "packagesPath": "C:\\Users\\Rinreal\\.nuget\\packages\\",
-      "outputPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\obj\\",
+      "outputPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rinreal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6447,14 +6447,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
-              "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj"
+            "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
+              "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj"
             },
-            "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj": {
-              "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj"
+            "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj": {
+              "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj"
             },
-            "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
-              "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj"
+            "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
+              "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj"
             }
           }
         }

@@ -4,14 +4,14 @@
     "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend.Api\\eShopSolution.Backend.Api.csproj": {}
   },
   "projects": {
-    "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj": {
+    "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj",
+        "projectUniqueName": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj",
         "projectName": "eShopSolution.Application",
-        "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj",
+        "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj",
         "packagesPath": "C:\\Users\\Rinreal\\.nuget\\packages\\",
-        "outputPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\obj\\",
+        "outputPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rinreal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
-                "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj"
+              "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
+                "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj"
               },
-              "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj": {
-                "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj"
+              "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj": {
+                "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj"
               },
-              "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
-                "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj"
+              "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
+                "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj"
               }
             }
           }
@@ -109,17 +109,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj": {
-                "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj"
+              "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj": {
+                "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Application\\eShopSolution.Application.csproj"
               },
-              "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
-                "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj"
+              "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
+                "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj"
               },
-              "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj": {
-                "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj"
+              "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj": {
+                "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj"
               },
-              "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
-                "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj"
+              "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
+                "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj"
               }
             }
           }
@@ -179,14 +179,14 @@
         }
       }
     },
-    "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
+    "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
+        "projectUniqueName": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
         "projectName": "eShopSolution.Data",
-        "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
+        "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\eShopSolution.Data.csproj",
         "packagesPath": "C:\\Users\\Rinreal\\.nuget\\packages\\",
-        "outputPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\obj\\",
+        "outputPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rinreal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -265,14 +265,14 @@
         }
       }
     },
-    "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj": {
+    "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj",
+        "projectUniqueName": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj",
         "projectName": "eShopSolution.Utilities",
-        "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj",
+        "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\eShopSolution.Utilities.csproj",
         "packagesPath": "C:\\Users\\Rinreal\\.nuget\\packages\\",
-        "outputPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\obj\\",
+        "outputPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rinreal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -317,14 +317,14 @@
         }
       }
     },
-    "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
+    "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
+        "projectUniqueName": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
         "projectName": "eShopSolution.ViewModels",
-        "projectPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
+        "projectPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
         "packagesPath": "C:\\Users\\Rinreal\\.nuget\\packages\\",
-        "outputPath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\obj\\",
+        "outputPath": "F:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rinreal\\AppData\\Roaming\\NuGet\\NuGet.Config"
