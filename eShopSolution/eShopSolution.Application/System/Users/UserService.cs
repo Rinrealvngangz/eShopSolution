@@ -7,7 +7,6 @@ using eShopSolution.Utilities.Exceptions;
 using eShopSolution.ViewModels.Catalog.System.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
-
 using Microsoft.Extensions.Configuration;
 using System.IdentityModel.Tokens.Jwt;
 

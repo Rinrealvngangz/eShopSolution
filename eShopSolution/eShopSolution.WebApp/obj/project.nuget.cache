@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dn61nAt1tFNUEGLpjn0Ux0Qs1DG0pn3AX2NHzpRn773FWLYGYr7BhIXGz+/dfC3BIUILPXxOGnCLDAF9ZYPODA==",
+  "dgSpecHash": "3w5hmy6upB4LXdS63/zJI5JbIsmi0uDrP+KvGHLLmBljycPGVhyrdz9+F49dygGOzsC2Fs9KRAgcgh+Dq8sMlA==",
   "success": true,
-  "projectFilePath": "f:\\dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Rinreal\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.11\\microsoft.netcore.app.host.win-x64.3.1.11.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
