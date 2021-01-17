@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4NtsQw5UdDk/NFBQzRDtgv7SJ4MlREe+FivMfamciCQn/ml+UrhOFDFgJmd0Xgzu296p6PvSVdu7XyuD6Bkgbg==",
+  "dgSpecHash": "4rRjN0+NjydGm1mLg3qflRshmcJODlMepd1ygfPhkh/Mg8c9xGdsHjS2emJ645WcHmNiMmuvsM8gkpns+BnO7Q==",
   "success": true,
-  "projectFilePath": "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.Backend_API\\eShopSolution.Backend_API.csproj",
+  "projectFilePath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.Backend_API\\eShopSolution.Backend_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tuann\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",

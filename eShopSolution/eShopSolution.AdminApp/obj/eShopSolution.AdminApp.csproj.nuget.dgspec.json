@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.AdminApp\\eShopSolution.AdminApp.csproj": {}
+    "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.AdminApp\\eShopSolution.AdminApp.csproj": {}
   },
   "projects": {
-    "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.AdminApp\\eShopSolution.AdminApp.csproj": {
+    "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.AdminApp\\eShopSolution.AdminApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.AdminApp\\eShopSolution.AdminApp.csproj",
+        "projectUniqueName": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.AdminApp\\eShopSolution.AdminApp.csproj",
         "projectName": "eShopSolution.AdminApp",
-        "projectPath": "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.AdminApp\\eShopSolution.AdminApp.csproj",
+        "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.AdminApp\\eShopSolution.AdminApp.csproj",
         "packagesPath": "C:\\Users\\tuann\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.AdminApp\\obj\\",
+        "outputPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.AdminApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
-                "projectPath": "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj"
+              "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
+                "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj"
               }
             }
           }
@@ -54,9 +54,17 @@
               "target": "Package",
               "version": "[3.1.4, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.4, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
             }
           },
           "imports": [
@@ -81,14 +89,14 @@
         }
       }
     },
-    "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
+    "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
+        "projectUniqueName": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
         "projectName": "eShopSolution.ViewModels",
-        "projectPath": "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
+        "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj",
         "packagesPath": "C:\\Users\\tuann\\.nuget\\packages\\",
-        "outputPath": "D:\\Dev\\NetCore\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\obj\\",
+        "outputPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
