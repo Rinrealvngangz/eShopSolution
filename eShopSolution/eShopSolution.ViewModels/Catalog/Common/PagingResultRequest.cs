@@ -2,7 +2,7 @@
 using System;
 namespace eShopSolution.ViewModels.Common
 {
-    public class PagingResultRequest  : RequestBase
+    public class PagingResultRequest  
     {
        
             public int pageIndex { get; set; }

@@ -23,8 +23,8 @@ namespace eShopSolution.Backend_API.Controllers
                       return BadRequest(ModelState);
                   }
                   var resultToken = await _userService.Authencate(request);
-                  if(String.IsNullOrEmpty(resultToken)){
-                      return BadRequest("Username or password is incorrect.");
+                  if(String.IsNullOrEmpty(resultToken.ResultObj)){
+                      return BadRequest(resultToken);
                   }
                   return Ok(resultToken);
         }
@@ -36,11 +36,31 @@ namespace eShopSolution.Backend_API.Controllers
                       return BadRequest(ModelState);
                   }
                   var result = await _userService.Register(request);
-                  if(!result){
-                      return BadRequest("Register is unsuccessful!");
+                  if(!result.IsSuccessed){
+                      return BadRequest(result);
                   }
-                  return Ok("Successed!");
+                  return Ok(result);
         }
+
+      
+        //PUT: http://localhost/api/users/id
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(Guid id, [FromBody] UserUpdateRequest request)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var result = await _userService.Update(id, request);
+            if (!result.IsSuccessed)
+            {
+                return BadRequest(result);
+            }
+            return Ok(result);
+        }
+
+
+
+
         //https://localhost/api/users/paging?pageSize=10&pageIndex=2$keyword=
         [HttpGet("paging")]
         public async Task<IActionResult> GetAllPaging([FromQuery] GetUserPagingRequest request)
@@ -49,6 +69,12 @@ namespace eShopSolution.Backend_API.Controllers
             var product = await _userService.GetUsersPaging(request);
             return Ok(product);
 
+        }
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
+        {
+            var user = await _userService.GetById(id);
+            return Ok(user);
         }
 
     }

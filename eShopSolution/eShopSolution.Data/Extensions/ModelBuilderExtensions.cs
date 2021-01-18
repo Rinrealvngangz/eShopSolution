@@ -113,6 +113,8 @@ namespace eShopSolution.Data.Extensions
                 FirstName = "Tuan",
                 LastName = "Nguyen",
                 Dob = new DateTime(2020, 01, 4)
+
+
             });
 
             modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>
