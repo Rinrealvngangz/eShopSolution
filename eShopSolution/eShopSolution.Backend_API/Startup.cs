@@ -40,8 +40,7 @@ namespace eShopSolution.Backend_API
                   .AddEntityFrameworkStores<EShopDbContext>()
                   .AddDefaultTokenProviders();
             //Declare DI
-            services.AddTransient<IPublicProductService, PublicProductService>();
-            services.AddTransient<IManageProductService, ManageProductService>();
+            services.AddTransient<IProductService, ProductService>();
             services.AddTransient<IstorageService, FileStorageService>();
             services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();

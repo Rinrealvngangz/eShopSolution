@@ -8,7 +8,7 @@ using eShopSolution.ViewModels.Catalog.ProductImages;
 
 namespace eShopSolution.Application.Catalog.Products
 {
-    public interface IManageProductService
+    public interface IProductService
     {
        Task<int>  Create(ProductCreateRequest request);
 
@@ -34,8 +34,10 @@ namespace eShopSolution.Application.Catalog.Products
 
         Task<ProductImageViewModel> GetImageById(int imageId);
         Task<List<ProductImageViewModel>> GetListImage(int productId);
-  
 
-  
+        Task<PagedResult<ProductViewModel>> GetAllByCategoryId(string languageId, GetProductPaggingRequest request);
+
+
+
     }
 }

@@ -1,7 +1,8 @@
-﻿using System;
+﻿using eShopSolution.ViewModels.Catalog.Common;
+using System;
 namespace eShopSolution.ViewModels.Common
 {
-    public class PagingResultRequest
+    public class PagingResultRequest  : RequestBase
     {
        
             public int pageIndex { get; set; }

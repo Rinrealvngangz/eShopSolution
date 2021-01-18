@@ -1,9 +1,10 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 
 namespace eShopSolution.ViewModels.Common
 {
-    public class PagedResult<T>
+    public class PagedResult<T> 
     {
         public List<T> Items { get; set; }
 

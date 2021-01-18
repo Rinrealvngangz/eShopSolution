@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace eShopSolution.Backend_API.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     public class UsersController :Controller
     {
         private readonly IUserService _userService;
@@ -27,10 +28,10 @@ namespace eShopSolution.Backend_API.Controllers
                   }
                   return Ok(resultToken);
         }
-         [HttpPost("register")]
+         [HttpPost]
         [AllowAnonymous]
 
-        public async Task<IActionResult> Register([FromForm] RegisterRequest request){
+        public async Task<IActionResult> Register([FromBody] RegisterRequest request){
                   if(!ModelState.IsValid){
                       return BadRequest(ModelState);
                   }
@@ -40,7 +41,15 @@ namespace eShopSolution.Backend_API.Controllers
                   }
                   return Ok("Successed!");
         }
+        //https://localhost/api/users/paging?pageSize=10&pageIndex=2$keyword=
+        [HttpGet("paging")]
+        public async Task<IActionResult> GetAllPaging([FromQuery] GetUserPagingRequest request)
+        {
 
+            var product = await _userService.GetUsersPaging(request);
+            return Ok(product);
+
+        }
 
     }
 }
