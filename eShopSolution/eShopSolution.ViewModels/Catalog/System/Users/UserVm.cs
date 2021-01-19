@@ -18,5 +18,6 @@ namespace eShopSolution.ViewModels.Catalog.System.Users
 
         public DateTime Dob { get; set; }
 
+        public IList<string> Roles { get; set; }
     }
 }

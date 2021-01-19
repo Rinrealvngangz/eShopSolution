@@ -20,5 +20,7 @@ namespace eShopSolution.AdminApp.Sevices
 
 
         Task<ApiResult<bool>> Delete(Guid id);
+
+        Task<ApiResult<bool>> RoleAssign(Guid id, RoleAssignRequest request);
     }
 }
