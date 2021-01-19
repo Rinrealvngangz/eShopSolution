@@ -809,3 +809,6 @@ D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.1\Razor\Views\User\Create.cshtml.g.cs
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.1\Razor\Views\User\Edit.cshtml.g.cs
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.1\Razor\Views\User\Details.cshtml.g.cs
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Pager\Default.cshtml.g.cs
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.1\Razor\Views\User\Delete.cshtml.g.cs

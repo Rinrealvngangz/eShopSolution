@@ -19,7 +19,8 @@ namespace eShopSolution.Backend_API.Controllers
         [AllowAnonymous]
 
         public async Task<IActionResult> Authenticate([FromBody] LoginRequest request){
-                  if(!ModelState.IsValid){
+                  if(!ModelState.IsValid)
+                   {
                       return BadRequest(ModelState);
                   }
                   var resultToken = await _userService.Authencate(request);
@@ -76,6 +77,14 @@ namespace eShopSolution.Backend_API.Controllers
             var user = await _userService.GetById(id);
             return Ok(user);
         }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var result = await _userService.Delete(id);
+            return Ok(result);
+        }
+
+
 
     }
 }
