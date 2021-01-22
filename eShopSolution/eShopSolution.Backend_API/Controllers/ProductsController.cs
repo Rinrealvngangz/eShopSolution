@@ -27,16 +27,27 @@ namespace eShopSolution.Backend_API.Controllers
      
 
              // http://localhost/products?pageIndex=1&pagesSize=10&CategoryId=2
-        [HttpGet("{languageId}")]
+     /*   [HttpGet("{languageId}")]
         public async Task<IActionResult> GetAllPaging(string languageId ,[FromQuery]GetProductPaggingRequest request)
         {
 
           var product = await _poductService.GetAllByCategoryId( languageId, request);
           return Ok(product);
                 
+        }*/
+
+
+        [HttpGet("paging")]
+        public async Task<IActionResult> GetAllPaging([FromQuery] GetManageProductPaggingRequest request)
+        {
+            var products = await _poductService.GetAllPading(request);
+            return Ok(products);
         }
-          // http://localhost/product/1
-          [HttpGet("{productId}/{languageId}")]
+
+
+
+        // http://localhost/product/1
+        [HttpGet("{productId}/{languageId}")]
            public async Task<IActionResult> GetByID(int productId, string languageId)
         {
             var product = await _poductService.GetById(productId,languageId);

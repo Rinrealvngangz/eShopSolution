@@ -90,24 +90,25 @@ namespace eShopSolution.Application.Catalog.Products
             return await _context.SaveChangesAsync();
 
         }
-        public async Task<PagedResult<ProductViewModel>> GetAllPading(GetManageProductPaggingRequest request)
+        public async Task<PagedResult<ProductVm>> GetAllPading(GetManageProductPaggingRequest request)
         {
             //1. Select Join
             var query = from p in _context.Products
                         join pt in _context.ProductTranslations on p.Id equals pt.ProductId
                         join pic in _context.ProductInCategories on p.Id equals pic.ProductId
                         join c in _context.Categories on pic.CategoryId equals c.Id
+                        where pt.LanguageId == request.LanguageId
                         select new { p, pt, pic };
             //2. Filter
             if (!string.IsNullOrEmpty(request.KeyWord))
                 query = query.Where(p => p.pt.Name.Contains(request.KeyWord));
-            if (request.Categories.Count > 0)
+            if ( request.Categories !=null && request.Categories.Count > 0)
                 query = query.Where(p => request.Categories.Contains(p.pic.CategoryId));
             //3. Paging
             int totalRow = await query.CountAsync();
             var data = await query.Skip((request.pageIndex - 1) * request.pageSize)
                             .Take(request.pageSize)
-                            .Select(x=> new ProductViewModel() {
+                            .Select(x=> new ProductVm() {
                                 Id = x.p.Id,
                                 Name = x.pt.Name,
                                 DateCreated = x.p.DateCreated,
@@ -123,7 +124,7 @@ namespace eShopSolution.Application.Catalog.Products
                                 ViewCount = x.p.ViewCount
                             }).ToListAsync();
             //4. Select and projection
-            var pagedResult = new PagedResult<ProductViewModel>()
+            var pagedResult = new PagedResult<ProductVm>()
             {
                 TotalRecords = totalRow,
                 Items = data
@@ -192,14 +193,14 @@ namespace eShopSolution.Application.Catalog.Products
         }
 
 //fix error
-        public async Task<ProductViewModel> GetById(int productId, string languageId )
+        public async Task<ProductVm> GetById(int productId, string languageId )
         {
            
           var product = await _context.Products.FindAsync(productId);
           var productTranslation =await _context.ProductTranslations.FirstOrDefaultAsync
                                  (p=>p.ProductId ==productId && p.LanguageId == languageId);
 
-           var productViewModel = new ProductViewModel()
+           var productViewModel = new ProductVm()
             {
                 Id = product.Id,
                 DateCreated = product.DateCreated,
@@ -295,7 +296,7 @@ namespace eShopSolution.Application.Catalog.Products
            return viewModel;
         }
 
-        public async Task<PagedResult<ProductViewModel>> GetAllByCategoryId(string languageId, GetProductPaggingRequest request)
+        public async Task<PagedResult<ProductVm>> GetAllByCategoryId(string languageId, GetProductPaggingRequest request)
         {
             //1. Select Join
             var query = from p in _context.Products
@@ -312,7 +313,7 @@ namespace eShopSolution.Application.Catalog.Products
             int totalRow = await query.CountAsync();
             var data = await query.Skip((request.pageIndex - 1) * request.pageSize)
                             .Take(request.pageSize)
-                            .Select(x => new ProductViewModel()
+                            .Select(x => new ProductVm()
                             {
                                 Id = x.p.Id,
                                 Name = x.pt.Name,
@@ -329,7 +330,7 @@ namespace eShopSolution.Application.Catalog.Products
                                 ViewCount = x.p.ViewCount
                             }).ToListAsync();
             //4. Select and projection
-            var pagedResult = new PagedResult<ProductViewModel>()
+            var pagedResult = new PagedResult<ProductVm>()
             {
                 TotalRecords = totalRow,
                 Items = data

@@ -22,9 +22,9 @@ namespace eShopSolution.Application.Catalog.Products
 
         Task AddViewCount(int productId);
 
-        Task<ProductViewModel> GetById(int productId, string languageId);
+        Task<ProductVm> GetById(int productId, string languageId);
 
-       Task<PagedResult<ProductViewModel>> GetAllPading(GetManageProductPaggingRequest request);
+       Task<PagedResult<ProductVm>> GetAllPading(GetManageProductPaggingRequest request);
 
         Task<int> AddImage(int productId, ProductImageCreateRequest request);
 
@@ -35,7 +35,7 @@ namespace eShopSolution.Application.Catalog.Products
         Task<ProductImageViewModel> GetImageById(int imageId);
         Task<List<ProductImageViewModel>> GetListImage(int productId);
 
-        Task<PagedResult<ProductViewModel>> GetAllByCategoryId(string languageId, GetProductPaggingRequest request);
+        Task<PagedResult<ProductVm>> GetAllByCategoryId(string languageId, GetProductPaggingRequest request);
 
 
 
