@@ -95,15 +95,15 @@ namespace eShopSolution.Application.Catalog.Products
             //1. Select Join
             var query = from p in _context.Products
                         join pt in _context.ProductTranslations on p.Id equals pt.ProductId
-                      //  join pic in _context.ProductInCategories on p.Id equals pic.ProductId
-                       // join c in _context.Categories on pic.CategoryId equals c.Id
+                        join pic in _context.ProductInCategories on p.Id equals pic.ProductId
+                        join c in _context.Categories on pic.CategoryId equals c.Id
                         where pt.LanguageId == request.LanguageId
-                        select new { p, pt };
+                        select new { p, pt,pic };
             //2. Filter
             if (!string.IsNullOrEmpty(request.KeyWord))
                 query = query.Where(p => p.pt.Name.Contains(request.KeyWord));
-           // if ( request.Categories !=null && request.Categories.Count > 0)
-             //   query = query.Where(p => request.Categories.Contains(p.pic.CategoryId));
+            if ( request.CategoryId !=null && request.CategoryId != 0)
+                query = query.Where(p =>p.pic.CategoryId ==  request.CategoryId );
             //3. Paging
             int totalRow = await query.CountAsync();
             var data = await query.Skip((request.pageIndex - 1) * request.pageSize)
@@ -127,8 +127,10 @@ namespace eShopSolution.Application.Catalog.Products
             var pagedResult = new PagedResult<ProductVm>()
             {
                 TotalRecords = totalRow,
-                Items = data
-
+                Items = data,
+                PageIndex =request.pageIndex,
+                PageSize =request.pageSize
+                
             };
             return pagedResult;
         }
