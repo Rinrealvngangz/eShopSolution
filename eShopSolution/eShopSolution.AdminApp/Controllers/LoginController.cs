@@ -44,7 +44,7 @@ namespace eShopSolution.AdminApp.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View(ModelState);
+                return View(request);
             }
             var result = await _userApiClient.Authenticate(request);
             if (result.ResultObj == null)
