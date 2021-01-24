@@ -818,3 +818,4 @@ D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\bin\Debug\netcoreapp3.
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Navigation\Default.cshtml.g.cs
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.1\Razor\Views\Product\Create.cshtml.g.cs
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.1\Razor\Views\Product\CategoryAssign.cshtml.g.cs

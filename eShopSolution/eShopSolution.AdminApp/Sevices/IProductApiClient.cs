@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using eShopSolution.ViewModels.Catalog.Common;
 
 namespace eShopSolution.AdminApp.Sevices
 {
@@ -11,8 +12,11 @@ namespace eShopSolution.AdminApp.Sevices
     {
         Task<PagedResult<ProductVm>> GetPagings(GetManageProductPaggingRequest request);
         Task<bool> CreateProduct(ProductCreateRequest request);
+
+        Task<ApiResult<bool>> CategoryAssign(int id, CategoryAssignRequest request);
+
+        Task<ProductVm> GetById(int id, string languageId);
+
     }
-
-
 
 }

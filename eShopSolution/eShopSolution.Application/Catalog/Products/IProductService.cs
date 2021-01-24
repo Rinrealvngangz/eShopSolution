@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using eShopSolution.ViewModels.Common;
 using eShopSolution.ViewModels.Catalog.Products;
 using eShopSolution.ViewModels.Catalog.ProductImages;
+using eShopSolution.ViewModels.Catalog.Common;
 
 namespace eShopSolution.Application.Catalog.Products
 {
@@ -37,7 +38,7 @@ namespace eShopSolution.Application.Catalog.Products
 
         Task<PagedResult<ProductVm>> GetAllByCategoryId(string languageId, GetProductPaggingRequest request);
 
-
+        Task<ApiResult<bool>> CategoryAssign(int id, CategoryAssignRequest request);
 
     }
 }
