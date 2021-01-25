@@ -41,6 +41,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "LazZiya.ExpressLocalization": {
+              "target": "Package",
+              "version": "[4.0.4, )"
+            },
+            "LazZiya.TagHelpers": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

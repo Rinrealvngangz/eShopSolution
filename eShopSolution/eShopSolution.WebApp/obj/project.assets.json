@@ -1,11 +1,88 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "LazZiya.ExpressLocalization/4.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/LazZiya.ExpressLocalization.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/LazZiya.ExpressLocalization.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "LazZiya.TagHelpers/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/LazZiya.TagHelpers.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/LazZiya.TagHelpers.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LazZiya.ExpressLocalization/4.0.4": {
+      "sha512": "qA4iHvWtRajnAGYUHzm493RbqAYPgk7xVqn2WHupd0gLeKMdXsV2PoSMCceCVb1BOhjbJLmBdAkR3UfzHIvpZQ==",
+      "type": "package",
+      "path": "lazziya.expresslocalization/4.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lazziya.expresslocalization.4.0.4.nupkg.sha512",
+        "lazziya.expresslocalization.nuspec",
+        "lib/netcoreapp2.0/LazZiya.ExpressLocalization.dll",
+        "lib/netcoreapp2.0/LazZiya.ExpressLocalization.xml",
+        "lib/netcoreapp2.1/LazZiya.ExpressLocalization.dll",
+        "lib/netcoreapp2.1/LazZiya.ExpressLocalization.xml",
+        "lib/netcoreapp2.2/LazZiya.ExpressLocalization.dll",
+        "lib/netcoreapp2.2/LazZiya.ExpressLocalization.xml",
+        "lib/netcoreapp3.0/LazZiya.ExpressLocalization.dll",
+        "lib/netcoreapp3.0/LazZiya.ExpressLocalization.xml",
+        "lib/netcoreapp3.1/LazZiya.ExpressLocalization.dll",
+        "lib/netcoreapp3.1/LazZiya.ExpressLocalization.xml",
+        "license.txt"
+      ]
+    },
+    "LazZiya.TagHelpers/5.0.0": {
+      "sha512": "1BKvcmzVyzsFQD/VdlmR/QD9HJDG0OJQTVnOSaIfyHHXpYpneCqxIMC+1UW3Kr89CGxin408BNpgt0umojd+aQ==",
+      "type": "package",
+      "path": "lazziya.taghelpers/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lazziya.taghelpers.5.0.0.nupkg.sha512",
+        "lazziya.taghelpers.nuspec",
+        "lib/net5.0/LazZiya.TagHelpers.dll",
+        "lib/net5.0/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp2.0/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp2.0/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp2.1/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp2.1/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp2.2/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp2.2/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp3.0/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp3.0/LazZiya.TagHelpers.xml",
+        "lib/netcoreapp3.1/LazZiya.TagHelpers.dll",
+        "lib/netcoreapp3.1/LazZiya.TagHelpers.xml",
+        "license.txt"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "LazZiya.ExpressLocalization >= 4.0.4",
+      "LazZiya.TagHelpers >= 5.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\tuann\\.nuget\\packages\\": {},
@@ -48,6 +125,16 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "dependencies": {
+          "LazZiya.ExpressLocalization": {
+            "target": "Package",
+            "version": "[4.0.4, )"
+          },
+          "LazZiya.TagHelpers": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
