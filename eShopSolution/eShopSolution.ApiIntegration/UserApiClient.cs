@@ -10,7 +10,7 @@ using System.Net.Http.Headers;
 using eShopSolution.ViewModels.Catalog.Common;
 using Microsoft.AspNetCore.Http;
 
-namespace eShopSolution.AdminApp.Sevices
+namespace eShopSolution.ApiIntegration
 {
     public class UserApiClient :IUserApiClient
     {

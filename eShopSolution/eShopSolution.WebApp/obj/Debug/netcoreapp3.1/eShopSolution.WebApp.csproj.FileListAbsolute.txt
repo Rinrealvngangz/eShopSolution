@@ -84,3 +84,16 @@ D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\obj\Debug\netcoreapp3.1\eShopSolution.WebApp.csproj.CoreCompileInputs.cache
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\obj\Debug\netcoreapp3.1\eShopSolution.WebApp.MvcApplicationPartsAssemblyInfo.cs
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\obj\Debug\netcoreapp3.1\eShopSolution.WebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\eShopSolution.Utilities.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\eShopSolution.ViewModels.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.pdb
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\eShopSolution.Utilities.pdb
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\bin\Debug\netcoreapp3.1\eShopSolution.ViewModels.pdb

@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using eShopSolution.ViewModels.Catalog.System.Users;
 using Microsoft.AspNetCore.Mvc;
-using eShopSolution.AdminApp.Sevices;
+
 using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.IdentityModel.Logging;
@@ -13,6 +13,7 @@ using System;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using eShopSolution.ViewModels.Catalog.Common;
+using eShopSolution.ApiIntegration;
 
 namespace eShopSolution.AdminApp.Controllers
 {

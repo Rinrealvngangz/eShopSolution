@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using eShopSolution.ViewModels.Catalog.Common;
 
-namespace eShopSolution.AdminApp.Sevices
+namespace eShopSolution.ApiIntegration
 {
     public interface IProductApiClient
     {
@@ -16,6 +16,8 @@ namespace eShopSolution.AdminApp.Sevices
         Task<ApiResult<bool>> CategoryAssign(int id, CategoryAssignRequest request);
 
         Task<ProductVm> GetById(int id, string languageId);
+
+        Task<List<ProductVm>> GetFeaturedProducts(string languageId, int take);
 
     }
 

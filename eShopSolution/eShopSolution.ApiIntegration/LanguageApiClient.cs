@@ -1,4 +1,5 @@
-﻿using eShopSolution.ViewModels.Catalog.Common;
+﻿using eShopSolution.ApiIntegration;
+using eShopSolution.ViewModels.Catalog.Common;
 using eShopSolution.ViewModels.Catalog.System.Languages;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
@@ -8,8 +9,8 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace eShopSolution.AdminApp.Sevices
-{
+namespace eShopSolution.ApiIntegration
+{ 
     public class LanguageApiClient : BaseApiClient , ILanguageApiClient
     {
         public LanguageApiClient(IHttpClientFactory httpClientFactory,

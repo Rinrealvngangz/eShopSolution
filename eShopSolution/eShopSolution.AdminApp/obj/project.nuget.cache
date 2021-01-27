@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tGfiIZkvKS5NK1PfYiZrXHWnLmmH8Vb4m1UYCgPo01j9deuzEZ7vIhzm5qcP98Cs6/ZZexfLrD/0yKRQen4bQg==",
+  "dgSpecHash": "elhgaD8BvKGMYWn78Pxji2znSKfT6z3DW0gk0ywxbSJfjwNk20l2twx9bnq3Bjif5V+vmj8tI7UAbHcMDBGOUw==",
   "success": true,
   "projectFilePath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.AdminApp\\eShopSolution.AdminApp.csproj",
   "expectedPackageFiles": [
@@ -54,7 +54,7 @@
     "C:\\Users\\tuann\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\tuann\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\tuann\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

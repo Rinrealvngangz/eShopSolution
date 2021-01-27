@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "svzhGq8bBsOIZM0MoM08S6BDywHefQ07uADtJeCVBgvslYD2p8Ie1zZ/0SIoNP4vw7siVAfElCB26c6trTE3AQ==",
+  "dgSpecHash": "m92rBELS5eEptcK0VgL5r3mXCCevl9qpT9mTgB+nk/n6SweBsZSMN6VcjlVQUjyfo4PTBDe5OOYY9/gqxwEoJQ==",
   "success": true,
   "projectFilePath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.WebApp\\eShopSolution.WebApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\tuann\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512",
+    "C:\\Users\\tuann\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.3.0\\fluentvalidation.aspnetcore.9.3.0.nupkg.sha512",
+    "C:\\Users\\tuann\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.3.0\\fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
     "C:\\Users\\tuann\\.nuget\\packages\\lazziya.expresslocalization\\4.0.4\\lazziya.expresslocalization.4.0.4.nupkg.sha512",
-    "C:\\Users\\tuann\\.nuget\\packages\\lazziya.taghelpers\\5.0.0\\lazziya.taghelpers.5.0.0.nupkg.sha512"
+    "C:\\Users\\tuann\\.nuget\\packages\\lazziya.taghelpers\\5.0.0\\lazziya.taghelpers.5.0.0.nupkg.sha512",
+    "C:\\Users\\tuann\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.1\\microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512",
+    "C:\\Users\\tuann\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\tuann\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\tuann\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\tuann\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

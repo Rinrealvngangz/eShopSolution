@@ -4,7 +4,7 @@ using eShopSolution.ViewModels.Catalog.Common;
 using eShopSolution.ViewModels.Catalog.System.Users;
 using eShopSolution.ViewModels.Common;
 
-namespace eShopSolution.AdminApp.Sevices
+namespace eShopSolution.ApiIntegration
 {
     public interface IUserApiClient
     {

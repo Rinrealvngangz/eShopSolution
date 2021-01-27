@@ -1,4 +1,5 @@
-﻿using eShopSolution.Utilities.Constants;
+﻿using eShopSolution.ApiIntegration;
+using eShopSolution.Utilities.Constants;
 using eShopSolution.ViewModels.Catalog.Common;
 using eShopSolution.ViewModels.Catalog.Products;
 using eShopSolution.ViewModels.Common;
@@ -14,7 +15,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace eShopSolution.AdminApp.Sevices
+namespace eShopSolution.ApiIntegration
 {
   
         public class ProductApiClient : BaseApiClient, IProductApiClient
@@ -111,7 +112,11 @@ namespace eShopSolution.AdminApp.Sevices
             return data;
         }
 
-
+        public async Task<List<ProductVm>> GetFeaturedProducts(string languageId, int take)
+        {
+            var data = await GetListAsync<ProductVm>($"/api/products/featured/{languageId}/{take}");
+            return data;
+        }
     }
     
 }

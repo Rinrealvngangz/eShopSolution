@@ -1,0 +1,14 @@
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\bin\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.deps.json
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\bin\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\bin\Debug\netcoreapp3.1\eShopSolution.Utilities.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\bin\Debug\netcoreapp3.1\eShopSolution.ViewModels.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\bin\Debug\netcoreapp3.1\eShopSolution.Utilities.pdb
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\bin\Debug\netcoreapp3.1\eShopSolution.ViewModels.pdb
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\obj\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.csprojAssemblyReference.cache
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\obj\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.AssemblyInfoInputs.cache
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\obj\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.AssemblyInfo.cs
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\obj\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.csproj.CopyComplete
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\obj\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.csproj.CoreCompileInputs.cache
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\bin\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.pdb
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\obj\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.dll
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.ApiIntegration\obj\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.pdb
