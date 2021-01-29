@@ -820,3 +820,4 @@ D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.1\Razor\Views\Product\CategoryAssign.cshtml.g.cs
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\bin\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.dll
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\bin\Debug\netcoreapp3.1\eShopSolution.ApiIntegration.pdb
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.AdminApp\obj\Debug\netcoreapp3.1\Razor\Views\Product\Edit.cshtml.g.cs

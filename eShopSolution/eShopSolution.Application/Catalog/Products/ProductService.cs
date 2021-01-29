@@ -14,6 +14,7 @@ using System.IO;
 using eShopSolution.ViewModels.Catalog.Products;
 using eShopSolution.ViewModels.Catalog.ProductImages;
 using eShopSolution.ViewModels.Catalog.Common;
+using eShopSolution.Utilities.Constants;
 
 namespace eShopSolution.Application.Catalog.Products
 {
@@ -36,35 +37,49 @@ namespace eShopSolution.Application.Catalog.Products
         }
 
     
-      public async Task<int> Create(ProductCreateRequest request)
-        {
-            var product = new Product()
+     public async Task<int> Create(ProductCreateRequest request)
             {
-                Price = request.Price,
-                OriginalPrice = request.OriginalPrice,
-                Stock = request.Stock,
-                ViewCount = 0,
-                DateCreated = DateTime.Now,
-                ProductTranslations = new List<ProductTranslation>()
+                var languages = _context.Languages;
+                var translations = new List<ProductTranslation>();
+                foreach (var language in languages)
                 {
-                    new ProductTranslation()
+                    if (language.Id == request.LanguageId)
                     {
-
-                          Name = request.Name,
-                        Description = request.Description,
-                        Details = request.Details,
-                        SeoDescription = request.SeoDescription,
-                        SeoAlias = request.SeoAlias,
-                        SeoTitle = request.SeoTitle,
-                        LanguageId = request.LanguageId
+                        translations.Add(new ProductTranslation()
+                        {
+                            Name = request.Name,
+                            Description = request.Description,
+                            Details = request.Details,
+                            SeoDescription = request.SeoDescription,
+                            SeoAlias = request.SeoAlias,
+                            SeoTitle = request.SeoTitle,
+                            LanguageId = request.LanguageId
+                        });
+                    }
+                    else
+                    {
+                        translations.Add(new ProductTranslation()
+                        {
+                            Name = SystemConstants.ProductConstants.NA,
+                            Description = SystemConstants.ProductConstants.NA,
+                            SeoAlias = SystemConstants.ProductConstants.NA,
+                            LanguageId = language.Id
+                        });
                     }
                 }
-        };
-
-            //Save image
-            if (request.ThumbnailImage != null)
-            {
-                product.ProductImages = new List<ProductImage>()
+                var product = new Product()
+                {
+                    Price = request.Price,
+                    OriginalPrice = request.OriginalPrice,
+                    Stock = request.Stock,
+                    ViewCount = 0,
+                    DateCreated = DateTime.Now,
+                    ProductTranslations = translations
+                };
+                //Save image
+                if (request.ThumbnailImage != null)
+                {
+                    product.ProductImages = new List<ProductImage>()
                 {
                     new ProductImage()
                     {
@@ -76,11 +91,11 @@ namespace eShopSolution.Application.Catalog.Products
                         SortOrder = 1
                     }
                 };
-            }
+                }
                 _context.Products.Add(product);
-            await _context.SaveChangesAsync();
-                 return product.Id;
-        }
+                await _context.SaveChangesAsync();
+                return product.Id;
+            }   
 
       public async Task<int> Delete(int productId)
         {
