@@ -115,15 +115,19 @@ namespace eShopSolution.Application.Catalog.Products
                         from pic in ppic.DefaultIfEmpty()
                         join c in _context.Categories on pic.CategoryId equals c.Id into picc
                         from c in picc.DefaultIfEmpty()
-                        where pt.LanguageId == request.LanguageId
-                        select new { p, pt,pic };
+                        join pi in _context.ProductImages on p.Id equals pi.ProductId into ppi
+                        from pi in ppi.DefaultIfEmpty()
+                        where pt.LanguageId == request.LanguageId && pi.IsDefault == true
+                        select new { p, pt,pic ,pi };
             //2. Filter
             if (!string.IsNullOrEmpty(request.KeyWord))
                 query = query.Where(p => p.pt.Name.Contains(request.KeyWord));
+
             if ( request.CategoryId !=null && request.CategoryId != 0)
                 query = query.Where(p =>p.pic.CategoryId ==  request.CategoryId );
             //3. Paging
             int totalRow = await query.CountAsync();
+
             var data = await query.Skip((request.pageIndex - 1) * request.pageSize)
                             .Take(request.pageSize)
                             .Select(x=> new ProductVm() {
@@ -139,7 +143,8 @@ namespace eShopSolution.Application.Catalog.Products
                                 SeoDescription = x.pt.SeoDescription,
                                 SeoTitle = x.pt.SeoTitle,
                                 Stock = x.p.Stock,
-                                ViewCount = x.p.ViewCount
+                                ViewCount = x.p.ViewCount,
+                                ThumbnailImage = x.pi.ImagePath
                             }).ToListAsync();
             //4. Select and projection
             var pagedResult = new PagedResult<ProductVm>()
@@ -363,6 +368,8 @@ namespace eShopSolution.Application.Catalog.Products
             var pagedResult = new PagedResult<ProductVm>()
             {
                 TotalRecords = totalRow,
+                PageSize = request.pageSize,
+                PageIndex = request.pageIndex,
                 Items = data
 
             };

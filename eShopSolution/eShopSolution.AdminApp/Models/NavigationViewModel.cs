@@ -14,5 +14,7 @@ namespace eShopSolution.AdminApp.Models
         public string CurrentLanguageId { get; set; }
 
         public string ReturnUrl { set; get; }
+
+
     }
 }

@@ -6387,7 +6387,8 @@
       "LazZiya.ExpressLocalization >= 4.0.4",
       "LazZiya.TagHelpers >= 5.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
-      "eShopSolution.ApiIntegration >= 1.0.0"
+      "eShopSolution.ApiIntegration >= 1.0.0",
+      "eShopSolution.ViewModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6423,6 +6424,9 @@
           "projectReferences": {
             "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ApiIntegration\\eShopSolution.ApiIntegration.csproj": {
               "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ApiIntegration\\eShopSolution.ApiIntegration.csproj"
+            },
+            "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
+              "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj"
             }
           }
         }

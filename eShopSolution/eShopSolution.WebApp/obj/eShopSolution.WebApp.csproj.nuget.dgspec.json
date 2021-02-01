@@ -230,6 +230,9 @@
             "projectReferences": {
               "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ApiIntegration\\eShopSolution.ApiIntegration.csproj": {
                 "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ApiIntegration\\eShopSolution.ApiIntegration.csproj"
+              },
+              "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj": {
+                "projectPath": "D:\\Dev\\eShopSolution\\eShopSolution\\eShopSolution.ViewModels\\eShopSolution.ViewModels.csproj"
               }
             }
           }

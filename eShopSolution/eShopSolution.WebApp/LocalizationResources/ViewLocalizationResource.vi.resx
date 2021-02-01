@@ -121,6 +121,10 @@
     <value>Them vao</value>
     <comment>/Home/Index</comment>
   </data>
+  <data name="available products" xml:space="preserve">
+    <value>San pham co san</value>
+    <comment>/Product/Category</comment>
+  </data>
   <data name="categoryUrl" xml:space="preserve">
     <value>danh-muc</value>
   </data>
@@ -144,8 +148,25 @@
     <value>Dang nhap</value>
     <comment>Layout</comment>
   </data>
+  <data name="New | Available" xml:space="preserve">
+    <value>Co san</value>
+    <comment>Common</comment>
+  </data>
+  <data name="Page" xml:space="preserve">
+    <value>Trang</value>
+    <comment>Common</comment>
+  </data>
+  <data name="products" xml:space="preserve">
+    <value>san-pham</value>
+    <comment>
+Common</comment>
+  </data>
   <data name="productUrl" xml:space="preserve">
     <value>san-pham</value>
+  </data>
+  <data name="Sort By" xml:space="preserve">
+    <value>Sap xep theo</value>
+    <comment>/Product/Category</comment>
   </data>
   <data name="Specials Offer" xml:space="preserve">
     <value>Khuyen mai</value>
@@ -158,5 +179,9 @@
   <data name="VIEW" xml:space="preserve">
     <value>XEM</value>
     <comment>Layout</comment>
+  </data>
+  <data name="View details" xml:space="preserve">
+    <value>Xem chi tiet</value>
+    <comment>/Product/Category</comment>
   </data>
 </root>
