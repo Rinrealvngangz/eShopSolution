@@ -1,6 +1,7 @@
 ﻿@model HomeViewModel
 @using eShopSolution.ViewModels.Catalog.Products;
 @inject LazZiya.ExpressLocalization.ISharedCultureLocalizer _loc;
+@inject Microsoft.Extensions.Configuration.IConfiguration Configuration;
 @{
     var culture = CultureInfo.CurrentCulture.Name;
 }

@@ -22,6 +22,7 @@ namespace eShopSolution.Application.Catalog.Products
     {
         private readonly EShopDbContext _context;
         private readonly IstorageService _storageService;
+        private const string USER_CONTENT_FOLDER_NAME = "user-content";
         public ProductService(EShopDbContext context, IstorageService storageService)
         {
             _context = context;
@@ -102,7 +103,14 @@ namespace eShopSolution.Application.Catalog.Products
             var product = await _context.Products.FindAsync(productId);
             if (product == null) throw new EShopException($"Cannot Find a product:${productId}");
 
-            _context.Products.Add(product);
+            var images = _context.ProductImages.Where(i => i.ProductId == productId);
+            foreach (var image in images)
+            {
+                await _storageService.DeleteFileAsync(image.ImagePath);
+            }
+
+            _context.Products.Remove(product);
+
             return await _context.SaveChangesAsync();
 
         }
@@ -213,8 +221,8 @@ namespace eShopSolution.Application.Catalog.Products
             var originalFileName = ContentDispositionHeaderValue.Parse(file.ContentDisposition).FileName.Trim('"');
             var fileName = $"{Guid.NewGuid()}{Path.GetExtension(originalFileName)}";
             await _storageService.SaveFileAsync(file.OpenReadStream(), fileName);
-            
-            return fileName;
+
+            return "/" + USER_CONTENT_FOLDER_NAME + "/" + fileName;
         }
 
 //fix error
