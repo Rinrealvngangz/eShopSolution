@@ -179,3 +179,4 @@ D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\obj\Debug\netcoreapp3.1\
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\obj\Debug\netcoreapp3.1\eShopSolution.WebApp.MvcApplicationPartsAssemblyInfo.cache
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+D:\Dev\eShopSolution\eShopSolution\eShopSolution.WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs
